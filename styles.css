@@ -1,0 +1,86 @@
+body {
+    margin-bottom: 300px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    border-radius: 20px;
+    margin: 10px 80px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-btn {
+    background-color: blue;
+    color: white;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    margin: 8px;
+}
+
+.second {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    font-size: 30px;
+}
+
+input {
+    height: 30px;
+}
+
+.form {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 80px;
+}
+
+ul {
+    color: white;
+}
+
+li {
+    font-size: 30px;
+}
+
+.images-container p {
+    color: white;
+    font-size: 20px;
+}
+

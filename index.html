@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>EVAL</title>
+</head>
+
+<body>
+    <div class="title-container">
+        <h1>WEB DEVELOPMENT</h1>
+    </div>
+    <div class="images-container">
+        <div class="image-container">
+            <img class="logo"
+                src="https://img2.freepng.fr/20180425/rwe/kisspng-web-development-html-responsive-web-design-logo-ja-html-5ae04a94d3ebb9.2609257315246485968681.jpg"
+                alt="html">
+            <p>HTML</p>
+        </div>
+        <div class="image-container">
+            <img class="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ8434eEA6ifZ0V8OxVoch_FEzA8BOKpkdNnGtpp5AHy91eIPHDQ"
+                alt="css">
+            <p>CSS</p>
+        </div>
+        <div class="image-container">
+            <img class="logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                alt="js">
+            <p>JAVASCRIPT</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="second">
+            <div class="buttons-container">
+                <button onclick="makeBold()">Gras</button>
+                <button onclick="makeItalic()">Italique</button>
+                <button onclick="makeUnderline()">Souligne</button>
+                <button class="blue-btn" onclick="changeBlue()">Blue</button>
+                <button class="red-btn" onclick="changeRed()">Red</button>
+            </div>
+            <p id="text">Gomycode is the first coding school in Africa. It was established in 2016.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    <form onsubmit="addItem(event)" class="form">
+        <input id="item" type="text" placeholder="Write here ...">
+        <button>Add</button>
+        <ul id="items">
+        </ul>
+    </form>
+</body>
+</html>
